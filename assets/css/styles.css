@@ -3,6 +3,11 @@
     background: var(--bg-1);
     padding: 19px 16px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .header .inner-header{
@@ -102,7 +107,7 @@
 
 /* SECTION ONE  */
 .section-one{
-    padding-top: 75px;
+    padding-top: 181px;
     padding-bottom: 75px;
 }
 
@@ -478,3 +483,151 @@
     transition: all 0.6s;
 }
 /* SECTION FOUR  */
+
+/* BEFORE BEFORE FOOTER  */
+.bbefore-footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #14142B;
+}
+
+.bbefore-footer .inner-wrap .partners h3{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.bbefore-footer .inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bbefore-footer .inner-wrap .partners {
+    width: 20%;
+}
+
+.bbefore-footer .inner-wrap .inner-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bbefore-footer .inner-wrap .inner-list .item{
+    margin-right: 20px;
+    padding: 10px 35px;
+    border-radius: 45px;
+    border: 1px solid #ffffff;
+}
+
+.bbefore-footer .inner-wrap .inner-list .item img{
+    width: 100px;
+    height: 48px;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.bbefore-footer .inner-wrap .inner-list .item:hover{
+    border-color: #FEDB01;
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+/* BEFORE BEFORE FOOTER  */
+
+
+/* BEFORE FOOTER  */
+.before-footer{
+    background: #F7F7F7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.before-footer .container .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.before-footer .container .inner-wrap .inner-logo{
+    display: inline-flex;
+    align-items: center;
+    width: 58%;
+}
+
+.before-footer .container .inner-wrap .inner-logo img{
+    width: 48px;
+    height: 48px;
+    margin-right: 34px;
+}
+.before-footer .container .inner-wrap .inner-logo span{
+    font-size: 38px;
+    line-height: 38px;
+    color: #232323;
+}
+
+.before-footer .container .inner-wrap .inner-desc{
+    width : 45%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.before-footer .container .inner-wrap .inner-desc p{
+    font-size: 18px;
+
+}
+/* BEFORE FOOTER  */
+
+/* FOOTER  */
+.footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #F7F7F7;
+}
+
+.footer .container .inner-wrap .inner-list{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.footer .container .inner-wrap .inner-list .inner-title{
+    font-size: 18px;
+    color: #14142b;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.footer .container .inner-wrap .inner-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .container .inner-wrap .inner-list ul li {
+    margin-bottom: 24px;
+}
+
+.footer .container .inner-wrap .inner-list ul li a{
+    font-size: 18px;
+    line-height: 18px;
+    color: #14142B;
+}
+
+.footer .inner-wrap .inner-list .about .two-col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner-wrap .inner-list .about .two-col .ul1{
+    margin-right: 30px;
+}
+
+.footer .container .inner-wrap .inner-list ul li a:hover{
+    color: #3F69FF;
+}
+/* FOOTER  */
+
