@@ -484,6 +484,138 @@
 }
 /* SECTION FOUR  */
 
+/* Phần cuối của Trần Thịnh  */
+.section-seven{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background: #F7F7F7;
+}
+
+.section-seven .container .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-seven .inner-wrap .inner-content{
+    width: 45%;
+}
+
+.section-seven .inner-wrap .inner-content .inner-title{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 45px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.section-seven .inner-wrap .inner-content .inner-desc{
+    font-size: 18px;
+    line-height: 27px;
+    color:#5f5d68;
+    margin-bottom: 28px;
+}
+
+.section-seven .inner-wrap .inner-content .inner-button .sub-button{
+    padding: 24px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 45px;
+    background: #FEDB01;
+    color: #121227;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.section-seven .inner-wrap .inner-content .inner-button .about-button{
+    padding: 24px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 45px;
+    border: 1px solid #E2E3E9;
+    color: #121227;
+    font-size: 18px;
+}
+
+.section-seven .inner-wrap .inner-profile{
+    width: 45%;
+    border-radius: 45px;
+    border: 1px solid #eff0f6;
+    box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07);
+    padding: 62px 56px 64px;
+    background: #fff;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-vatatar{
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-vatatar img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-name{
+    font-size: 38px;
+    font-weight: 700;
+    color: #14142B;
+    margin-bottom: 4px;
+    margin-top: 0;
+    line-height: 42px;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-position{
+    font-size: 18px;
+    color: #14142B;
+    margin-top: 0;
+    line-height: 27px;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-desc{
+    font-size: 18px;
+    color: #14142B;
+    margin-bottom: 40px;
+    line-height: 27px;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-social i{
+    display: inline-block;
+    font-size: 28px;
+    line-height: 44px;
+    margin-right: 12px;
+}
+
+.section-seven .inner-wrap .inner-content .inner-button .sub-button:hover{
+    background: #14142B;
+    border-color: #14142B;
+    color: #FDFDFD;
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+.section-seven .inner-wrap .inner-content .inner-button .about-button:hover{
+    background: #E2E3E9;
+    color: #14142B;
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+
+.section-seven .inner-wrap .inner-profile .inner-social i:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+/* Phần cuối của Trần Thịnh  */
+
+/* Phần của Phan Tiến  */
+/* Phần của Phan Tiến  */
+
+
 /* BEFORE BEFORE FOOTER  */
 .bbefore-footer{
     padding-top: 80px;
