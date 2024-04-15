@@ -484,6 +484,141 @@
 }
 /* SECTION FOUR  */
 
+/* SECTION FIVE  */
+.section-five{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-five .container .inner-wrap{
+    background: #14142B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 120px 76px;
+    border-radius: 45px;
+}
+
+.section-five .container .inner-wrap .inner-title{
+    color: #ffffff;
+    margin: 0;
+    font-size: 24px;
+    width: 50%;
+    text-align: left;
+}
+
+.section-five .container .inner-wrap .inner-form{
+    flex: 1;
+    padding: 16px 9.6px 16px 26px;
+    border-radius: 45px;
+    background: #fff;
+    display: flex;
+}
+
+.section-five .container .inner-wrap .inner-form input{
+    border: 0;
+    width: 70%;
+    padding: 16px 0;
+    outline: none;
+    font-size: 18px;
+}
+
+.section-five .container .inner-wrap .inner-form .inner-button{
+    flex: 1;
+    padding: 24px 40px;
+    border-radius: 45px;
+    background: #FEDB01;
+    color: #14142B;
+    font-size: 18px;
+}
+
+.section-five .container .inner-wrap .inner-form .inner-button:hover{
+    background: #14142B;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: all 0.6s;
+}
+/* SECTION FIVE  */
+
+/* SECTION SIX  */
+.section-six{
+    padding: 96px 0;
+}
+
+.section-six .container .inner-wrap .inner-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.section-six .container .inner-wrap .inner-title h1 {
+    width: 55%;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.section-six .container .inner-wrap .inner-title p {
+    flex: 1;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.section-six .container .inner-wrap .inner-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-six .container .inner-wrap .inner-list .item{
+    width: calc(100%/3 - 15px);
+    border: 1px solid #eff0f6;
+    border-radius: 45px;
+    box-shadow: 0 5px 12px 0 rgba(20, 20, 43, 0.05);
+    padding: 44px 32px 40px 32px;
+}
+
+.section-six .container .inner-wrap .inner-list .item .inner-icon{
+    text-align: right;
+    font-size: 20px;
+    color: #fedb01;
+    margin-bottom: 16px;
+}
+
+.section-six .container .inner-wrap .inner-list .item .inner-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-six .inner-list .item .inner-content .inner-image{
+    width: 50%;
+}
+
+.section-six .inner-content .inner-image .inner-avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.section-six .inner-content .inner-image .inner-avatar img {
+    width: 100%;
+    
+}
+
+.section-six .inner-list .item .inner-content .inner-comment{
+    width: 50%;
+}
+
+.section-six .inner-list .item .inner-content .inner-comment p{
+    font-size: 18px;
+    
+    margin-top: 0;
+}
+
+/* SECTION SIX  */
+
+
 /* Phần cuối của Trần Thịnh  */
 .section-seven{
     padding-top: 75px;
@@ -613,6 +748,92 @@
 /* Phần cuối của Trần Thịnh  */
 
 /* Phần của Phan Tiến  */
+.section-eight{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section-eight .container .inner-wrap .title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.section-eight .container .inner-wrap .inner-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-eight .container .inner-wrap .inner-list .inner-item{
+    width: 47%;
+    border-radius: 12px;
+    box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07);
+    overflow: hidden;
+}
+
+.section-eight .container .inner-wrap .inner-list .inner-item .inner-image{
+    height: 385px;
+    object-fit: cover;
+}
+
+.section-eight .inner-wrap .inner-list .inner-item .inner-image img {
+    width: 100%;
+}
+
+.section-eight .inner-wrap .inner-list .inner-item .inner-content{
+    padding: 34px 25px 54px 31px;
+}
+
+.section-eight .inner-wrap .inner-item .inner-content .time {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.section-eight .inner-wrap .inner-item .inner-content .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.section-eight .inner-wrap .inner-item .inner-content .inner-desc {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.section-eight .inner-wrap .inner-item .inner-content .read-more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-eight .inner-wrap .inner-item .inner-content .read-more a {
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #14142B;
+}
+
+.section-eight .inner-wrap .inner-item .inner-content .read-more .inner-tag{
+    padding: 16px 25px;
+    color: #14142B;
+    font-size: 18px;
+    line-height: 20px;
+    background: #eff0f6;
+    border-radius: 45px;
+}
+
+.section-eight .inner-wrap .inner-item:hover 
+.inner-content .title{
+    color: #3F69FF;
+}
+
+.section-eight .inner-wrap .inner-item:hover 
+.inner-content .read-more a {
+    color: #3F69FF;
+}
 /* Phần của Phan Tiến  */
 
 
