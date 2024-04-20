@@ -1,0 +1,201 @@
+/* HEADER  */
+.header{
+    background: var(--bg-1);
+    padding: 19px 16px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .inner-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .inner-header .inner-logo{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .inner-header .inner-logo img{
+    width: 48px;
+    height: 48px;
+    margin-right: 30px;
+}
+
+.header .inner-header .inner-logo a{
+    font-size: 24px;
+    font-weight: 700;
+    color: #232323;
+}
+
+.header .inner-header .inner-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+}
+
+.header .inner-header .inner-nav ul li{
+    margin-right: 32px;
+}
+
+.header .inner-header .inner-nav ul li a{
+    color: #232323;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 4px solid transparent;
+}
+
+.header .inner-header .inner-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .inner-header .inner-button .button-one{
+    margin: 0 9.6px;
+    padding: 16px 25px;
+    border: 1px solid #E2E3E9;
+    border-radius: 45px;
+    font-size: 18px;
+    color: #14142b;
+}
+
+.header .inner-header .inner-button .button-two{
+    margin: 0 9.6px;
+    padding: 16px 25px;
+    border: 2px solid #FEDB01;
+    border-radius: 45px;  
+    font-size: 18px;
+    color: #14142b;
+    background: #FEDB01;
+}
+
+.header .inner-header .inner-logo a:hover{
+    color: #3F69FF;
+}
+
+.header .inner-header .inner-nav ul li a:hover{
+    border-color: #14142B;
+    color: #14142B;
+    transition: all 0.5s;
+}
+
+.header .inner-header .inner-button .button-one:hover{
+    background: #E2E3E9;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.header .inner-header .inner-button .button-two:hover{
+    background: #14142b;
+    transition: all 0.5s;
+    color: #ffffff;
+    border-color: #14142b;
+    transform: scale(1.1);
+}
+
+/* END HEADER  */
+
+
+/* LOGIN  */
+
+.login{
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;;
+    border-radius: 12px;
+    margin-bottom: 90px;
+}
+
+.login .inner-wrap .inner-title{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.login .inner-wrap .inner-form{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.login .inner-wrap .inner-form input{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 45px;
+    font-size: 18px;
+}
+
+.login .inner-wrap .inner-button .login-button{
+    display: block;
+    padding: 16px 50px;
+    font-size: 18px;
+    line-height: 27px;
+    border: 2px solid #14142B;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45px;
+    text-align: center;
+    color: #14142B;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.login .inner-wrap .inner-button .login-button:hover{
+    background: #14142B;
+    color: #ffffff;
+}
+
+.login .inner-wrap .login-with{
+    font-size: 18px;
+}
+
+
+.login .inner-wrap .inner-social .inner-icon{
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.login .inner-wrap .inner-social .inner-icon i{
+    font-size: 28px;
+    color: blue;
+}
+
+.login .inner-wrap .inner-social .inner-icon .icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.login .inner-wrap .inner-social .inner-icon .icon:hover{
+    background: #dddddd;
+}
