@@ -1,7 +1,7 @@
 /* HEADER  */
 .header{
     background: var(--bg-1);
-    /* padding: 19px 16px; */
+    padding: 19px 16px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -116,8 +116,9 @@
     margin-left: auto;
     margin-right: auto;
     padding: 30px 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #000000;
     border-radius: 15px;
+    background: #fff;
     text-align: center;
 }
 

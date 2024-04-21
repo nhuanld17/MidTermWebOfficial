@@ -113,12 +113,13 @@
     text-align: center;
     padding: 20px;
     max-width: 600px;
-    border: 1px solid #dddddd;
+    border: 1px solid #000000;
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;;
     border-radius: 12px;
     margin-bottom: 90px;
+
 }
 
 .login .inner-wrap .inner-title{

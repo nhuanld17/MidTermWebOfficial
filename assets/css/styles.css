@@ -176,19 +176,24 @@
     transition: all 0.5s;
 }
 .section-one .inner-wrap .inner-image{
-    width: 41%;
+    width: 45%;
 }
 
 .section-one .inner-wrap .inner-image .gray{
-    padding: 45px 0;
-    background: #EFF0F6;
+    padding: 20px 0;
+    background: #70707a;
+    position: relative;
+    margin-top: -30px;
+    height: 290px;
 }
 
 .section-one .inner-wrap .inner-image .gray img{
     width: 100%;
-    height: auto;
     position: relative;
+    height: auto;
     right: 40px;
+    border: 1px solid #000000;
+    margin-top: -100px;
 }
 /* END SECTION ONE  */
 
@@ -310,10 +315,11 @@
     display: inline-block;
     padding: 24px 40px;
     margin-top: 20px;
-    border: 1px solid #e2e3e9;
+    border: 2px solid #e2e3e9;
     color: #14142b;
     border-radius: 45px;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .section-three .container .inner-wrap .inner-content .inner-button:hover{
@@ -347,13 +353,14 @@
 .section-four .container .inner-list .inner-item{
     width: calc(100% / 3 - 16px);
     margin-top: 0;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     overflow: hidden;
     box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07);
+    border: 1px solid;
 }
 
 .section-four .container .inner-list .inner-item .inner-image{
-    height: 385px;
+    height: 214px;
     position: relative;
     overflow: hidden;
 }
@@ -361,7 +368,7 @@
 .section-four .container .inner-list .inner-item .inner-image img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .section-four .container .inner-list .inner-item .inner-content{
@@ -768,13 +775,14 @@
 
 .section-eight .container .inner-wrap .inner-list .inner-item{
     width: 47%;
-    border-radius: 12px;
+    /* border-radius: 12px; */
     box-shadow: 0 5px 16px 0 rgba(8, 15, 52, 0.07);
     overflow: hidden;
+    border: 1px solid #000000;
 }
 
 .section-eight .container .inner-wrap .inner-list .inner-item .inner-image{
-    height: 385px;
+    height: 315px;
     object-fit: cover;
 }
 
@@ -783,7 +791,7 @@
 }
 
 .section-eight .inner-wrap .inner-list .inner-item .inner-content{
-    padding: 34px 25px 54px 31px;
+    padding: 34px 25px 30px 31px;
 }
 
 .section-eight .inner-wrap .inner-item .inner-content .time {
