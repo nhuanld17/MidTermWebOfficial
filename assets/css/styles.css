@@ -784,10 +784,12 @@
 .section-eight .container .inner-wrap .inner-list .inner-item .inner-image{
     height: 315px;
     object-fit: cover;
+
 }
 
 .section-eight .inner-wrap .inner-list .inner-item .inner-image img {
     width: 100%;
+    border-bottom: 1px solid #000;
 }
 
 .section-eight .inner-wrap .inner-list .inner-item .inner-content{
